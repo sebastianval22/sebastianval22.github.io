@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sebastián Valencia — Software Engineer</title>
+<meta name="description" content="Sebastián Valencia — Software Engineer. Full-stack development, data pipelines, and AI-driven solutions. PUC / KTH.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>SV</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">SV</a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Sebastián Valencia</h1>
+      <p class="hero-role">Software Engineer — Full-Stack, Data &amp; AI</p>
+      <p class="hero-summary">
+        Computer Engineering student at Pontificia Universidad Católica de Chile
+        (Software Engineering major, Data Science &amp; Analytics minor), with an
+        academic exchange at KTH Royal Institute of Technology. I build scalable
+        web &amp; mobile applications, automated data pipelines, and AI-driven
+        solutions — currently as a Software Engineer / DevOps &amp; Data Intern at
+        <a href="https://pullpo.io" target="_blank" rel="noopener">Pullpo</a>.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="resume.pdf" class="btn btn-outline" download>Download Résumé</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <ul class="hero-links">
+        <li><a href="https://github.com/sebastianval22" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sebastian-valencia-aa149a302" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:sebastianval22@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">01</span> About</h2>
+      <div class="about-grid">
+        <p>
+          I'm a Computer Engineering student based in Santiago, Chile, majoring in
+          Software Engineering with a minor in Data Science &amp; Analytics at PUC,
+          and I spent a semester on academic exchange at KTH Royal Institute of
+          Technology in Stockholm focused on algorithm design and high-performance
+          computing. Having lived in Colombia, the United States, and Chile, I bring
+          an adaptable, cross-cultural perspective to every team I work with.
+        </p>
+        <p>
+          Day to day, I work across the stack: building CI/CD pipelines and ELT data
+          pipelines, engineering AI-powered tools with the Anthropic SDK and Model
+          Context Protocol, and shipping full-stack products in React, Next.js, and
+          Node. Outside of internships, I've been a Teaching Assistant at PUC for
+          four years, supporting 100+ students across Programming, Linear Algebra,
+          and Artificial Intelligence.
+        </p>
+      </div>
+      <dl class="facts">
+        <div class="fact"><dt>Location</dt><dd>Santiago, Chile</dd></div>
+        <div class="fact"><dt>Education</dt><dd>B.Sc. Computer Engineering, PUC (2022–2027)</dd></div>
+        <div class="fact"><dt>Exchange</dt><dd>KTH Royal Institute of Technology, Stockholm</dd></div>
+        <div class="fact"><dt>Languages</dt><dd>Spanish (native), English (advanced C1)</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">02</span> Experience</h2>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Aug 2025 — Present</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Software Engineer / DevOps &amp; Data Intern</h3>
+            <p class="timeline-org">Pullpo · Santiago, Chile</p>
+            <ul>
+              <li>Authored a shared Python library and established CI/CD pipelines via Artifact Registry, reducing new-integration deployment time by ~50% and codebase duplication by ~60%.</li>
+              <li>Designed scalable ELT data pipelines (Python, SQL, dbt), embedding 60–100 automated data-quality tests per model.</li>
+              <li>Built an AI-powered Data Analyst agent using the Anthropic SDK (Claude) and Model Context Protocol to translate natural language into isolated BigQuery queries and dynamic UI actions.</li>
+              <li>Engineered a multi-tenant SaaS analytics platform (Next.js 14, React) with custom dashboards over isolated BigQuery datasets per client.</li>
+              <li>Led a zero-downtime migration of client infrastructure to GCP, centralizing config with Secret Manager and least-privilege IAM.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2022 — 2026</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Teaching Assistant</h3>
+            <p class="timeline-org">Pontificia Universidad Católica de Chile · Santiago, Chile</p>
+            <ul>
+              <li>Introduction to Programming (Python), Linear Algebra, Dynamics Lab, Physics, and Artificial Intelligence — in AI, prepared lecture material, taught classes, and graded evaluations.</li>
+              <li>Supported 100+ students total: reviewed and debugged student code for correctness and best practices, and explained programming, algorithmic, and mathematical concepts.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">03</span> Featured Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card-body">
+            <h3>GeriaPOP</h3>
+            <p class="project-sub">Offline-First Healthcare Platform</p>
+            <p>
+              Built with a real hospital network (Red de Salud UC CHRISTUS) to
+              digitize validated geriatric screening tests for point-of-care use.
+              My role: the mobile app, with offline-first sync ensuring reliable
+              record-keeping in zero-connectivity hospital environments.
+            </p>
+            <ul class="tags">
+              <li>React Native</li><li>TypeScript</li><li>WatermelonDB</li><li>FastAPI</li><li>AWS</li>
+            </ul>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/sebastianval22/geriapop-mobile-showcase" target="_blank" rel="noopener">Mobile showcase →</a>
+            <a href="https://github.com/sebastianval22/geriapop-backend-showcase" target="_blank" rel="noopener">Backend showcase →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-body">
+            <h3>Tic-Tac-Goal</h3>
+            <p class="project-sub">Real-Time Multiplayer Football Trivia</p>
+            <p>
+              A football-themed reimagining of Tic-Tac-Toe — to claim a square, a
+              player must name a real footballer matching that row/column's
+              attribute. Local, bot, and real-time online multiplayer with sub-50ms
+              latency, backed by a custom player-data scraping pipeline.
+            </p>
+            <ul class="tags">
+              <li>React</li><li>Koa.js</li><li>PostgreSQL</li><li>WebSockets</li>
+            </ul>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/sebastianval22/tictacgoal-frontend-showcase" target="_blank" rel="noopener">Frontend showcase →</a>
+            <a href="https://github.com/sebastianval22/tictacgoal-backend-showcase" target="_blank" rel="noopener">Backend showcase →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-body">
+            <h3>Properties Market Async</h3>
+            <p class="project-sub">Microservices Auction Platform</p>
+            <p>
+              A real-time property auction marketplace: an independently-deployed
+              JWT auth service with refresh-token rotation, an MQTT-driven
+              real-time layer, WebPay Plus payments, and a serverless (AWS Lambda)
+              PDF receipt generator, with CI/CD and New Relic monitoring.
+            </p>
+            <ul class="tags">
+              <li>Koa / Sequelize</li><li>MQTT</li><li>AWS Lambda</li><li>React</li>
+            </ul>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/sebastianval22/arquisis-backend-showcase" target="_blank" rel="noopener">Backend showcase →</a>
+            <a href="https://github.com/sebastianval22/arquisis-frontend-showcase" target="_blank" rel="noopener">Frontend showcase →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-body">
+            <h3>Planificador Académico UC</h3>
+            <p class="project-sub">PMBOK-Managed AI Academic Planner</p>
+            <p>
+              A 7-person group project run under full PMBOK methodology. As Risk
+              Analyst, I authored the risk register and correctly flagged, ahead of
+              time, the two risks that later materialized. Closed at CPI 1.02 /
+              SPI 1.11 — ahead of schedule and under budget.
+            </p>
+            <ul class="tags">
+              <li>PMBOK</li><li>Risk Management</li><li>SvelteKit</li><li>Express</li>
+            </ul>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/sebastianval22/planificador-uc-frontend-showcase" target="_blank" rel="noopener">Frontend showcase →</a>
+            <a href="https://github.com/sebastianval22/planificador-uc-backend-showcase" target="_blank" rel="noopener">Backend showcase →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-body">
+            <h3>Fire Emblem: Tactical Combat Engine</h3>
+            <p class="project-sub">Design Patterns Deep Dive</p>
+            <p>
+              A console simulation of Fire Emblem Heroes' combat system, built to
+              apply detailed object-oriented design to a genuinely complex rules
+              engine — Strategy and Factory patterns across dozens of composable
+              skill-effect classes.
+            </p>
+            <ul class="tags">
+              <li>C#</li><li>OOP</li><li>Strategy Pattern</li><li>Factory Pattern</li>
+            </ul>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/sebastianval22/Proyecto_Fire-Emblem_DDS" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="more-projects">
+        <p>
+          Plus microservices, ML, and database projects — PichangasYa (Rails
+          sports-matchmaking platform), El Algoritmo del Gol (footballer market
+          value prediction), a relational food-delivery database, and coursework
+          in data structures, algorithms, and advanced programming.
+        </p>
+        <a href="https://github.com/sebastianval22/school-projects" class="btn btn-outline" target="_blank" rel="noopener">See All Projects on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">04</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <p>Python, JavaScript, TypeScript, SQL, Ruby, C#, C++, R, HTML, CSS</p>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <p>React, React Native, Node.js, Express.js, Koa.js, Next.js, Ruby on Rails, FastAPI</p>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Google Cloud Platform, AWS (S3, RDS, Lambda, EC2), Docker, GitHub Actions, CI/CD, Secret Manager, IAM</p>
+        </div>
+        <div class="skill-group">
+          <h3>Data</h3>
+          <p>dbt, ELT pipeline design, automated data-quality testing, PostgreSQL, MySQL, dashboards</p>
+        </div>
+        <div class="skill-group">
+          <h3>AI / LLM</h3>
+          <p>Anthropic SDK (Claude), Model Context Protocol (MCP), LLM integration, Claude Code, AI-assisted workflows</p>
+        </div>
+        <div class="skill-group">
+          <h3>Practices</h3>
+          <p>Full-stack &amp; mobile development, API integration, automated testing, Agile/Scrum/Gitflow, PMBOK, code review</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title"><span class="section-num">05</span> Get in Touch</h2>
+      <p class="contact-lead">
+        I'm always open to discussing new opportunities, internships, or interesting
+        projects. Feel free to reach out.
+      </p>
+      <div class="contact-actions">
+        <a href="mailto:sebastianval22@gmail.com" class="btn btn-primary">sebastianval22@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sebastian-valencia-aa149a302" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/sebastianval22" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2026 Sebastián Valencia. Built with plain HTML, CSS &amp; JS.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
